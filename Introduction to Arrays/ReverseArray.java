@@ -30,7 +30,9 @@ import java.util.List;
 public class ReverseArray {
 
     public static void main(String[] args) {
-        List<Integer> input = List.of(1, 2, 3, 2, 1);
+        List<Integer> input = List.of(1, 2, 3, 4, 5);
+
+        System.out.println("original  Array: " + input);
 
         ArrayList<Integer> reversed = reverseUsingTwoPointers(input);
 
