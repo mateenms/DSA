@@ -8,6 +8,7 @@ public class CountsElements {
 
     public static void main(String[] args) {
 
+
         List<Integer> list = Arrays.asList(2, 3, 4);
 
         int result = countNonMaxElements(list);
