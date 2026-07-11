@@ -50,7 +50,7 @@ public class CountFactor {
 
     public static void main(String[] args) {
 
-        int number = 36;
+        int number = 10;
 
         int result = solve(number);
 
@@ -63,17 +63,19 @@ public class CountFactor {
 
 
     public static int countFact(int N){
-        int c=0;
+        int count = 0 ;
+
         for(int i=1;i*i<=N;i++){
-            if(N%i ==0){
-                if(i==N/i)
-                    c++;
-                else
-                    c=c+2;
+            if(N%i==0){
+                if(i==N/i){
+                    count++;
+                }else
+                    count=count+2;
             }
         }
 
-    return c;
+        return count;
+
     }
 }
 
