@@ -1,6 +1,6 @@
 package com.ms.problems_1;
 
-public class MooreVotingAlgo {
+public class MajjorityElement {
 
     public static void main(String[] args) {
 
