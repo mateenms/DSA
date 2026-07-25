@@ -1,6 +1,6 @@
 package com.ms.carryforward;
 
-public class MinMaxElementArray {
+public class ClosestMinMaxElementArray {
 
     public static void main(String[] args) {
 
